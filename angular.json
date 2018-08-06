@@ -104,6 +104,11 @@
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
             "devServerTarget": "hopewell:serve"
+          },
+          "configurations": {
+            "production": {
+              "devServerTarget": "hopewell:serve:production"
+            }
           }
         },
         "lint": {
